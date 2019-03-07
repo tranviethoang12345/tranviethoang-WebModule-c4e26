@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header"> Welcome to Bike Store </div>
+
+    <div>
+        <h1>{{ item.Model }}</h1>
+        <h3>Daily fee: {{ item.Fee }}VND </h3>
+        <h3>Image: <a href="{{ item.Image }}">Click here</a> </h3>
+        <h3>Publish: {{ item.Year }} </h3>
+    </div>
+</body>
+</html>

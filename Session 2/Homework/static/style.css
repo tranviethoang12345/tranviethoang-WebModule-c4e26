@@ -1,0 +1,13 @@
+.header{
+    text-align: center;
+    font-size: 100px;
+    color: brown;
+}
+
+.formadd{
+    margin: center;
+    width: 50%;
+    height: 10000px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
